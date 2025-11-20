@@ -13,10 +13,10 @@ public class Tester
     public static void main(String[] args)
     {
         World turtleWorld = new World();
-        Turtle maria = new Turtle(turtleWorld);
+        Turtle turtle = new Turtle(turtleWorld);
         
-        maria.forward(100);
-        maria.turnLeft();
+        turtle.forward(100);
+        turtle.turnLeft();
         
     }
 }
